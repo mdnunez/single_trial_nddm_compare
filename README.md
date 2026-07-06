@@ -1,4 +1,13 @@
-# thesis_ddm
+# single_trial_nddm_compare
+#### (Repository version 0.0.2)
+Repository for comparing model fits of single-trial and integrative (neural) drift-diffusion models using BayesFlow and Stan
+
+**Authors:**
+**Bruny Krijgsman from Erasmus University of Rotterdam**
+**Michael D. Nunez from the Psychological Methods group at the University of Amsterdam**
+
+### Citation
+Krijgsman, B., Steeghs-Turchina, M., Nunez, M. D. (2026, April 29). [Which model better predicts brain-behavior relationships during decision-making? A simulation-based comparison of single-trial directed and integrative drift-diffusion models](https://osf.io/preprints/psyarxiv/7d46a_v2). PsyArXiv. https://doi.org/10.31234/osf.io/7d46a_v2
 
 ## Installation
 
