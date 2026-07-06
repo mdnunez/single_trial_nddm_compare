@@ -99,13 +99,13 @@ No additional environment variables are required for CPU execution. Optional for
 ### How to run
 Using `uv` (recommended):
 ```bash
-cd /root/thesis
+cd single_trial_nddm_compare
 uv run python scripts/integrative_ddm_train.py
 ```
 
 Alternative with a virtual environment:
 ```bash
-cd /root/thesis
+cd single_trial_nddm_compare
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -e .
