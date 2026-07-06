@@ -31,9 +31,16 @@ archive/
 
 
 figures/
+Figures/
 
 directed_model/data/
 directed_model/results/
 
 integrative_model/data/
 integrative_model/checkpoints/
+
+directed_model/figures/
+directed_model/Figures/
+
+integrative_model/figures/
+integrative_model/Figures/
