@@ -75,7 +75,8 @@ echo "=========================================="
 
 # Run training
 echo "Starting training script..."
-./uv run python scripts/integrative_ddm_train.py
+# ./uv run python scripts/integrative_ddm_train.py
+./uv run python scripts/integrative_ddm_train_run_test.py
 
 echo "=========================================="
 echo "Job completed at: $(date)"
