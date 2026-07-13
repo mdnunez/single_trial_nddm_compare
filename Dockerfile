@@ -17,6 +17,10 @@ RUN uv sync --locked --no-install-project
 # Now copy the rest of the repository and install the project itself.
 COPY . .
 RUN uv sync --locked
+RUN chmod +x entrypoint.sh
 
-ENTRYPOINT ["uv", "run"]
-CMD ["scripts/integrative_ddm_train.py"]
+# By default, runs the training + analysis scripts in sequence:
+#   integrative_ddm_train.py -> integrative_ddm_generate_factorial_new_sigma.py
+#   -> integrative_ddm_data_check.py -> integrative_ddm_analyze_results_factorial.py
+# Pass a different script path as an argument to run just that one instead.
+ENTRYPOINT ["./entrypoint.sh"]
