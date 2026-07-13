@@ -1,4 +1,4 @@
-# thesis_ddm
+# single_trial_nddm_compare
 #### (Repository version 0.0.2)
 Repository for comparing model fits of single-trial and integrative (neural) drift-diffusion models using BayesFlow and Stan
 
@@ -99,13 +99,13 @@ No additional environment variables are required for CPU execution. Optional for
 ### How to run
 Using `uv` (recommended):
 ```bash
-cd thesis_ddm
+cd single_trial_nddm_compare
 uv run python scripts/integrative_ddm_train.py
 ```
 
 Alternative with a virtual environment:
 ```bash
-cd thesis_ddm
+cd single_trial_nddm_compare
 python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -e .
